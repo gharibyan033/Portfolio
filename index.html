@@ -30,20 +30,20 @@
     </header>
     <main>
         <section class="h-screen">
-            <div class="container max-w-7xl mx-auto flex justify-between items-center">
-                <div class="left flex flex-col gap-4 jusify-center">
+            <div class="container h-full max-w-7xl mx-auto flex justify-between items-center">
+                <div class="flex flex-col gap-8 jusify-center items-start">
                     <h3 class="text-[var(--c-grey-7)] text-2xl font-semibold tracking-wide">Hi I am</h3>
                     <h2 class="text-[var(--c-grey-9)] text-3xl font-bold tracking-wide">Gev Gharibyan</h2>
                     <h1 class="text-transparent text-7xl font-black tracking-wide bg-linear-to-r from-[var(--c-theme-dark)] via-[var(--c-theme-light)] to-[var(--c-theme-dark)] inline-block bg-clip-text">Frontend Web Developer</h1>
-                    <div class="inline-flex">
+                    <div class="inline-flex gap-4">
                         <a class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"><i class="fa-brands fa-instagram"></i></a>
                         <a class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"><i class="fa-brands fa-linkedin"></i></a>
                         <a class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"><i class="fa-brands fa-dribbble"></i></a>
                         <a class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"><i class="fa-brands fa-behance"></i></a>
                     </div>
-                    <div class="">
-                        <button class="bg-[var(--c-theme-light)] border-2 border-[var(--c-theme-light)] font-[Lato] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg">Hire Me</button>
-                        <button class="text-[var(--c-grey-9)] text-white border-2 border-[var(--c-grey-9)] font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg">Download CV</button> 
+                    <div class="inline-flex gap-4">
+                        <button class="cursor-pointer bg-[var(--c-theme-light)] border-2 border-[var(--c-theme-light)] font-[Lato] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg">Hire Me</button>
+                        <button class="cursor-pointer [var(--c-grey-9)] text-white border-2 border-[var(--c-grey-9)] font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg">Download CV</button> 
                     </div>
                     <div class="bg-white/4 inline-flex py-6 rounded-lg">
                         <div class="flex flex-col gap-3 px-8 ">
@@ -57,7 +57,12 @@
                             <span class="tracking-wide text-[var(--c-grey-d)] font-bold text-xl">Happy Clients</span></div>
                     </div>    
                 </div>
-                <div class="right"></div>
+            <div class=" w-1/2 flex justify-center items-center self-stretch">
+                <div class="rounded-full overflow-hidden h-9/10 aspect-[3/4] relative">
+                    <div class="w-full aspect-square bg-white/4 rounded-full absolute bottom-0"></div>
+                    <img class="h-full object-cover object-center absolute bottom-0 left-1/2 -translate-x-1/2 grayscale" src="../assets/img/exo.png" alt="">
+                </div>
+            </div>
             </div>
         </section>
     </main>
