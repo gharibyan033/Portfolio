@@ -1,111 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gev Gharibyan</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</head>
-<body class="bg-[var(--c-grey-1)] font-[Lato]">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+      integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body class="bg-[var(--c-grey-1)] font-[Lato]">
     <header class="backdrop-blur-md">
-        <div class="container max-w-7xl mx-auto flex justify-between items-center gap-10 py-4 px-8">
-            <div class="bg-linear-to-r from-[var(--c-theme-light)] to-[var(--c-theme-accent)] bg-clip-text text-transparent font-[K2D] text-3xl font-bold uppercase tracking-wide ">Logo</div>
-                <nav class="">
-                    <ul class="flex jusify-center items-center tex-xl text-[var(--c-grey-9)] font-medium tracking-wide gap-15 whitespace-nowrap">
-                    <li class="text-[var(--c-theme-light)]"><a href="" class="">Home</a></li>
-                    <li class=""><a href="" class="">Service</a></li>
-                    <li class=""><a href="" class="">About Me</a></li>
-                    <li class=""><a href="" class="">Portfolio</a></li>
-                    <li class=""><a href="" class="">contact Me</a></li>
-                </ul>
-            </nav>
-            <button class="bg-[var(--c-theme-light)] font-[Lato] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg">Hire Me</button>
+      <div
+        class="container max-w-7xl mx-auto flex justify-between items-center gap-10 py-4 px-8"
+      >
+        <div
+          class="bg-linear-to-r from-[var(--c-theme-light)] to-[var(--c-theme-accent)] bg-clip-text text-transparent font-[K2D] text-3xl font-bold uppercase tracking-wide"
+        >
+          Logo
         </div>
+        <nav class="">
+          <ul
+            class="flex jusify-center items-center tex-xl text-[var(--c-grey-9)] font-medium tracking-wide gap-15 whitespace-nowrap"
+          >
+            <li class="text-[var(--c-theme-light)]">
+              <a href="" class="">Home</a>
+            </li>
+            <li class=""><a href="" class="">Service</a></li>
+            <li class=""><a href="" class="">About Me</a></li>
+            <li class=""><a href="" class="">Portfolio</a></li>
+            <li class=""><a href="" class="">contact Me</a></li>
+          </ul>
+        </nav>
+        <button
+          class="bg-[var(--c-theme-light)] font-[Lato] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg"
+        >
+          Hire Me
+        </button>
+      </div>
     </header>
     <main>
-        <section class="h-screen">
-            <div class="container h-full max-w-7xl mx-auto flex justify-between items-center px-8">
-                <div class="flex flex-col gap-8 jusify-center items-start">
-                    <h3 class="text-[var(--c-grey-7)] text-2xl font-semibold tracking-wide">Hi I am</h3>
-                    <h2 class="text-[var(--c-grey-9)] text-3xl font-bold tracking-wide">Gev Gharibyan</h2>
-                    <h1 class="text-transparent text-7xl font-black tracking-wide bg-linear-to-r from-[var(--c-theme-dark)] via-[var(--c-theme-light)] to-[var(--c-theme-dark)] inline-block bg-clip-text">Frontend Web Developer</h1>
-                    <div class="inline-flex gap-4">
-                        <a class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"><i class="fa-brands fa-instagram"></i></a>
-                        <a class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"><i class="fa-brands fa-linkedin"></i></a>
-                        <a class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"><i class="fa-brands fa-dribbble"></i></a>
-                        <a class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"><i class="fa-brands fa-behance"></i></a>
-                    </div>
-                    <div class="inline-flex gap-4">
-                        <button class="cursor-pointer bg-[var(--c-theme-light)] border-2 border-[var(--c-theme-light)] font-[Lato] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg">Hire Me</button>
-                        <button class="cursor-pointer [var(--c-grey-9)] text-white border-2 border-[var(--c-grey-9)] font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg">Download CV</button> 
-                    </div>
-                    <div class="bg-white/4 inline-flex py-6 rounded-lg">
-                        <div class="flex flex-col gap-3 px-8 ">
-                            <span class="text-[var(--c-theme-light)] tracking-wide font-extrabold text-2xl">5+</span>
-                            <span class="tracking-wide text-[var(--c-grey-d)] font-bold text-xl">Experiences</span></div>
-                        <div class="flex flex-col gap-3 px-8 border-x border-x-[var(--c-grey-9)]">
-                            <span class="text-[var(--c-theme-light)] tracking-wide font-extrabold text-2xl">20+</span>
-                            <span class="tracking-wide text-[var(--c-grey-d)] font-bold text-xl">Projects Done</span></div>
-                        <div class="flex flex-col gap-3 px-8">
-                            <span class="text-[var(--c-theme-light)] tracking-wide font-extrabold text-2xl">80+</span>
-                            <span class="tracking-wide text-[var(--c-grey-d)] font-bold text-xl">Happy Clients</span></div>
-                    </div>    
-                </div>
-            <div class=" w-1/2 flex justify-center items-center self-stretch">
-                <div class="rounded-full overflow-hidden h-9/10 aspect-[3/4] relative">
-                    <div class="w-full aspect-square bg-white/4 rounded-full absolute bottom-0"></div>
-                    <img class="h-full object-cover object-center absolute bottom-0 left-1/2 -translate-x-1/2 grayscale" src="../assets/img/exo.png" alt="">
-                </div>
+      <section class="h-screen">
+        <div
+          class="container h-full max-w-7xl mx-auto flex justify-between items-center px-8"
+        >
+          <div class="flex flex-col gap-8 jusify-center items-start">
+            <h3
+              class="text-[var(--c-grey-7)] text-2xl font-semibold tracking-wide"
+            >
+              Hi I am
+            </h3>
+            <h2 class="text-[var(--c-grey-9)] text-3xl font-bold tracking-wide">
+              Gev Gharibyan
+            </h2>
+            <h1
+              class="text-transparent text-7xl font-black tracking-wide bg-linear-to-r from-[var(--c-theme-dark)] via-[var(--c-theme-light)] to-[var(--c-theme-dark)] inline-block bg-clip-text"
+            >
+              Frontend Web Developer
+            </h1>
+            <div class="inline-flex gap-4">
+              <a
+                class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+                ><i class="fa-brands fa-dribbble"></i
+              ></a>
+              <a
+                class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+                ><i class="fa-brands fa-behance"></i
+              ></a>
             </div>
+            <div class="inline-flex gap-4">
+              <button
+                class="cursor-pointer bg-[var(--c-theme-light)] border-2 border-[var(--c-theme-light)] font-[Lato] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg"
+              >
+                Hire Me
+              </button>
+              <button
+                class="cursor-pointer [var(--c-grey-9)] text-white border-2 border-[var(--c-grey-9)] font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg"
+              >
+                Download CV
+              </button>
             </div>
-        </section>
-        <section class="py-16">
-            <div class="container text-center max-w-7xl mx-auto flex jusify-center items-center flex-col gap-9">
-                <h2 class="text-5xl text-white font-bold tracking-wide">Skills
-                </h2>
-                <p class="tracking-wide text-xl text-[var(--c-grey-7)] max-w-xl leading-[1.5]">Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis ligula aliquam</p>
-                <div class="grid grid-cols-3 gap-8">
-                    <div class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6">
-                        <div class="text-[var(--c-theme-light)] text-5xl "><i class="fa-solid fa-code"></i></div>
-                        <h3 class="text-[var(--c-theme-light)] text-2xl">Web Developer</h3>
-                        <p class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
-                    </div>
-                    <div class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6">
-                        <div class="text-[var(--c-theme-light)] text-5xl "><i class="fa-brands fa-html5"></i></div>
-                        <h3 class="text-[var(--c-theme-light)] text-2xl">HTML5</h3>
-                        <p class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
-                    </div>
-                    <div class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6">
-                        <div class="text-[var(--c-theme-light)] text-5xl "><i class="fa-brands fa-css"></i></div>
-                        <h3 class="text-[var(--c-theme-light)] text-2xl">CSS</h3>
-                        <p class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
-                    </div>
-                    <div class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6">
-                        <div class="text-[var(--c-theme-light)] text-5xl "><i class="fa-brands fa-js"></i></div>
-                        <h3 class="text-[var(--c-theme-light)] text-2xl">JS</h3>
-                        <p class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
-                    </div>
-                    <div class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6">
-                        <div class="text-[var(--c-theme-light)] text-5xl "><i class="fa-brands fa-react"></i></div>
-                        <h3 class="text-[var(--c-theme-light)] text-2xl">React</h3>
-                        <p class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
-                    </div>
-                    <div class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6">
-                        <div class="text-[var(--c-theme-light)] text-5xl "><i class="fa-brands fa-docker"></i></div>
-                        <h3 class="text-[var(--c-theme-light)] text-2xl">Docker</h3>
-                        <p class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
-                    </div>
-                </div>
+            <div class="bg-white/4 inline-flex py-6 rounded-lg">
+              <div class="flex flex-col gap-3 px-8">
+                <span
+                  class="text-[var(--c-theme-light)] tracking-wide font-extrabold text-2xl"
+                  >5+</span
+                >
+                <span
+                  class="tracking-wide text-[var(--c-grey-d)] font-bold text-xl"
+                  >Experiences</span
+                >
+              </div>
+              <div
+                class="flex flex-col gap-3 px-8 border-x border-x-[var(--c-grey-9)]"
+              >
+                <span
+                  class="text-[var(--c-theme-light)] tracking-wide font-extrabold text-2xl"
+                  >20+</span
+                >
+                <span
+                  class="tracking-wide text-[var(--c-grey-d)] font-bold text-xl"
+                  >Projects Done</span
+                >
+              </div>
+              <div class="flex flex-col gap-3 px-8">
+                <span
+                  class="text-[var(--c-theme-light)] tracking-wide font-extrabold text-2xl"
+                  >80+</span
+                >
+                <span
+                  class="tracking-wide text-[var(--c-grey-d)] font-bold text-xl"
+                  >Happy Clients</span
+                >
+              </div>
             </div>
-        </section>
+          </div>
+          <div class="w-1/2 flex justify-center items-center self-stretch">
+            <div
+              class="rounded-full overflow-hidden h-9/10 aspect-[3/4] relative"
+            >
+              <div
+                class="w-full aspect-square bg-white/4 rounded-full absolute bottom-0"
+              ></div>
+              <img
+                class="h-full object-cover object-center absolute bottom-0 left-1/2 -translate-x-1/2 grayscale"
+                src="../assets/img/exo.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-16">
+        <div
+          class="container text-center max-w-7xl mx-auto flex jusify-center items-center flex-col gap-9"
+        >
+          <h2 class="text-5xl text-white font-bold tracking-wide">Skills</h2>
+          <p
+            class="tracking-wide text-xl text-[var(--c-grey-7)] max-w-xl leading-[1.5]"
+          >
+            Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit
+            felis ligula aliquam
+          </p>
+          <div class="grid grid-cols-3 gap-8">
+            <div
+              class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6"
+            >
+              <div class="text-[var(--c-theme-light)] text-5xl">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h3 class="text-[var(--c-theme-light)] text-2xl">
+                Web Developer
+              </h3>
+              <p
+                class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10"
+              >
+                Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit
+                amet consectetur
+              </p>
+            </div>
+            <div
+              class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6"
+            >
+              <div class="text-[var(--c-theme-light)] text-5xl">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <h3 class="text-[var(--c-theme-light)] text-2xl">HTML5</h3>
+              <p
+                class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10"
+              >
+                Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit
+                amet consectetur
+              </p>
+            </div>
+            <div
+              class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6"
+            >
+              <div class="text-[var(--c-theme-light)] text-5xl">
+                <i class="fa-brands fa-css"></i>
+              </div>
+              <h3 class="text-[var(--c-theme-light)] text-2xl">CSS</h3>
+              <p
+                class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10"
+              >
+                Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit
+                amet consectetur
+              </p>
+            </div>
+            <div
+              class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6"
+            >
+              <div class="text-[var(--c-theme-light)] text-5xl">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <h3 class="text-[var(--c-theme-light)] text-2xl">JS</h3>
+              <p
+                class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10"
+              >
+                Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit
+                amet consectetur
+              </p>
+            </div>
+            <div
+              class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6"
+            >
+              <div class="text-[var(--c-theme-light)] text-5xl">
+                <i class="fa-brands fa-react"></i>
+              </div>
+              <h3 class="text-[var(--c-theme-light)] text-2xl">React</h3>
+              <p
+                class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10"
+              >
+                Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit
+                amet consectetur
+              </p>
+            </div>
+            <div
+              class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6"
+            >
+              <div class="text-[var(--c-theme-light)] text-5xl">
+                <i class="fa-brands fa-docker"></i>
+              </div>
+              <h3 class="text-[var(--c-theme-light)] text-2xl">Docker</h3>
+              <p
+                class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10"
+              >
+                Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit
+                amet consectetur
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-10">
+        <div class="container max-w-7xl mx-auto h-full px-6 flex flex-col jusify-center items-center gap-10">
+          <h2 class="text-[var(--c-grey-d)] font-bold text-5xl tracking-wide">About Me</h2>
+          <p class="text-xl max-w-xl text-[var(--c-grey-7)] leading-[1.5] text-center">
+            User Interface and User Experience and Also video editing
+          </p>
+          
+          <div class="h-screen flex justify-between items-center w-full">
+            <div class="w-1/2 flex justify-center items-center self-stretch">
+            <div
+              class="overflow-hidden h-9/10 aspect-[3/4] relative"
+            >
+              <div
+                class="w-8/10 aspect-[3/4] bg-white/4 rounded-t-full absolute bottom-0 left-1/2 -translate-x-1/2"
+              ></div>
+              <img
+                class="h-full object-cover object-center absolute bottom-0 left-1/2 -translate-x-1/2 grayscale"
+                src="../assets/img/exo.png"
+                alt=""
+              />
+            </div>
+          </div>
+            <div class="w-1/2 flex flex-col justify-center items-start gap-12">
+                <p class="flex jusify-center items-center gap-4 text-[var(--c-grey-9)] text-center text-xl leading-[1.5]">A software engineer, the modern-day architect of digital realms, navigates the ethereal landscapes of code, sculpting intangible structures that shape our technological world. With fingers poised over keyboards like virtuoso pianists, they compose symphonies of logic, their minds a labyrinth of algorithms and solutions.Their canvas is a screen, a vast expanse where lines of code dance in intricate patterns, weaving the fabric of programs and applications. Each keystroke is a brushstroke, crafting intricate architectures and breathing life into innovative designs.In this digital atelier, they don the mantle of problem solvers, confronting bugs and glitches like valiant knights in an ever-evolving quest for perfection. Debugging becomes a noble pursuit, unraveling the mysteries hidden within the tangled webs of code. designs.In this digital atelier.</p>
+                <button 
+                class="cursor-pointer bg-[var(--c-theme-light)] text-white border-2 border-[var(--c-theme-light)] font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg"
+              >
+              <i class="fa-solid fa-download"></i>
+                Download CV
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    <section class="">
+
+    </section>
     </main>
     <footer></footer>
-    
-</body>
+  </body>
 </html>
