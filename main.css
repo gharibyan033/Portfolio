@@ -18,3 +18,40 @@
     --main-font: "Lato", sans-serif;
     --sec-font: "K2D", sans-serif;
 }
+.custom-gradient1 {
+    background: conic-gradient(
+        var(--c-theme-light) 72deg,
+        var(--c-theme-light) 360deg
+    );
+}
+.custom-gradient2 {
+    background: conic-gradient(
+       
+        var(--c-theme-light) 72deg,
+        var(--c-theme-light) 360deg
+    );
+}
+.custom-gradient3 {
+    background: conic-gradient(
+        transparent 0deg,
+        transparent 54deg,
+        var(--c-theme-light) 54deg,
+        var(--c-theme-light) 360deg
+    );
+}
+.custom-gradient4 {
+    background: conic-gradient(
+        transparent 0deg,
+        transparent 144deg,
+        var(--c-theme-light) 144deg,
+        var(--c-theme-light) 360deg
+    );
+}
+.custom-gradient5 {
+    background: conic-gradient(
+        transparent 0deg,
+        transparent 108deg,
+        var(--c-theme-light) 108deg,
+        var(--c-theme-light) 360deg
+    );
+}
