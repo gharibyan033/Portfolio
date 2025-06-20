@@ -31,23 +31,29 @@
       <div
         class="container max-w-7xl mx-auto flex justify-between items-center gap-10 py-4 px-8"
       >
-        <div
+      <input type="checkbox" id="burger_check">
+                <label class="burger" for="burger_check">
+                        <div class="line top"></div>
+                        <div class="line middle"></div>
+                        <div class="line bottom"></div>
+                    </label>
+        <a
           class="bg-linear-to-r from-[var(--c-theme-light)] to-[var(--c-theme-accent)] bg-clip-text text-transparent font-[K2D] text-3xl font-bold uppercase tracking-wide"
         >
           Logo
-        </div>
-        <nav class="">
-          <ul
-            class="flex jusify-center items-center tex-xl text-[var(--c-grey-9)] font-medium tracking-wide gap-15 whitespace-nowrap"
+        </a>
+        <nav class="header_nav">
+          <menu
+            class="header_navlist flex jusify-center items-center tex-xl text-[var(--c-grey-9)] font-medium tracking-wide gap-15 whitespace-nowrap"
           >
-            <li class="text-[var(--c-theme-light)]">
+            <li class="text-[var(--c-theme-light)] header_link header_active">
               <a href="" class="">Home</a>
             </li>
-            <li class=""><a href="" class="">Service</a></li>
-            <li class=""><a href="" class="">About Me</a></li>
-            <li class=""><a href="" class="">Portfolio</a></li>
-            <li class=""><a href="" class="">contact Me</a></li>
-          </ul>
+            <li class="header_link"><a href="" class="">Service</a></li>
+            <li class="header_link"><a href="" class="">About Me</a></li>
+            <li class="header_link"><a href="" class="">Portfolio</a></li>
+            <li class="header_link"><a href="" class="">Contact Me</a></li>
+          </menu>
         </nav>
         <button
           class="bg-[var(--c-theme-light)] font-[Lato] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg"
@@ -500,7 +506,7 @@
           </div>
           </div>
         </section>
-        <section>
+        <section class="py-20">
           <div class="container max-w-7xl mx-auto flex flex-col justify-center items-center">
             <h2 class="text-5xl text-white font-bold tracking-wide">Contact Me</h2>
             <p class="text-[var(--c-grey-9)] text-center tex-xl leading-[1.5]">Cultivating Connections: Reach Out and Connect with Me</p>
@@ -517,6 +523,51 @@
         </section>
       </section>
     </main>
-    <footer></footer>
+    <footer class="bg-white/4 py-10">
+      <div class="container max-w-7xl mx-auto flex flex-col justify-center items-center gap-8">
+        <a
+          class="bg-linear-to-r from-[var(--c-theme-light)] to-[var(--c-theme-accent)] bg-clip-text text-transparent font-[K2D] text-3xl font-bold uppercase tracking-wide"
+        >
+          Logo
+        </a>
+        <nav class="">
+          <menu
+            class="flex jusify-center items-center tex-xl text-[var(--c-grey-9)] font-medium tracking-wide gap-15 whitespace-nowrap"
+          >
+            <li class="text-[var(--c-theme-light)]">
+              <a href="" class="">Home</a>
+            </li>
+            <li class=""><a href="" class="">Service</a></li>
+            <li class=""><a href="" class="">About Me</a></li>
+            <li class=""><a href="" class="">Portfolio</a></li>
+            <li class=""><a href="" class="">Contact Me</a></li>
+          </menu>
+        </nav>
+        <div class="inline-flex gap-4">
+              <a
+                class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+                ><i class="fa-brands fa-dribbble"></i
+              ></a>
+              <a
+                class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+                ><i class="fa-brands fa-behance"></i
+              ></a>
+            </div>
+            <div class="text-[var(--c-grey-9)] flex gap-8">
+              <div class="flex gap-3 items-center"><i class="fa-regular fa-envelope"></i><span>Gharib7an@gmail.com</span></div>
+              <div class="flex gap-3 items-center"><i class="fa-solid fa-phone"></i><span>+374 43334440</span></div>
+            </div>
+            <p class="text-[var(--c-grey-7)] border-t border-[var(--c-grey-7)] pt-8">Designed by Gevorg.Gharibyan FrontEnd Web Developer</p>
+      </div>
+    </footer>
   </body>
 </html>
+
