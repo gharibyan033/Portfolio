@@ -112,7 +112,7 @@
 
     }
     .header_nav {
-        
+        display: none;
          position: fixed;
         background: #0008;
         width: 50vw;

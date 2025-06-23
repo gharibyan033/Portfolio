@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gev Gharibyan</title>
-    <link rel="stylesheet" href="main.css" />
+    <title>Mkhitar Siradeghyan</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,6 +24,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body class="bg-[var(--c-grey-1)] font-[Lato]">
     <header class="backdrop-blur-md">
@@ -32,11 +32,11 @@
         class="container max-w-7xl mx-auto flex justify-between items-center gap-10 py-4 px-8"
       >
       <input type="checkbox" id="burger_check">
-                <label class="burger" for="burger_check">
-                        <div class="line top"></div>
-                        <div class="line middle"></div>
-                        <div class="line bottom"></div>
-                    </label>
+          <label class="burger" for="burger_check">
+            <div class="line top"></div>
+            <div class="line middle"></div>
+            <div class="line bottom"></div>
+          </label>
         <a
           class="bg-linear-to-r from-[var(--c-theme-light)] to-[var(--c-theme-accent)] bg-clip-text text-transparent font-[K2D] text-3xl font-bold uppercase tracking-wide"
         >
@@ -44,42 +44,42 @@
         </a>
         <nav class="header_nav">
           <menu
-            class="header_navlist flex jusify-center items-center tex-xl text-[var(--c-grey-9)] font-medium tracking-wide gap-15 whitespace-nowrap"
+            class="header_navlist flex justify-center items-center text-xl text-[var(--c-grey-9)] font-medium tracking-wide gap-15 whitespace-nowrap"
           >
-            <li class="text-[var(--c-theme-light)] header_link header_active">
+            <li class="header_link header_active text-[var(--c-theme-light)]">
               <a href="" class="">Home</a>
             </li>
             <li class="header_link"><a href="" class="">Service</a></li>
-            <li class="header_link"><a href="" class="">About Me</a></li>
+            <li class="header_link"><a href="" class="">About me</a></li>
             <li class="header_link"><a href="" class="">Portfolio</a></li>
-            <li class="header_link"><a href="" class="">Contact Me</a></li>
+            <li class="header_link"><a href="" class="">Contact me</a></li>
           </menu>
         </nav>
         <button
-          class="bg-[var(--c-theme-light)] font-[Lato] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg"
+          class="bg-[var(--c-theme-light)] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg"
         >
-          Hire Me
+          Hire me
         </button>
       </div>
     </header>
     <main>
       <section class="h-screen">
         <div
-          class="container h-full max-w-7xl mx-auto flex justify-between items-center px-8"
+          class="container px-8 lg:h-full max-w-7xl mx-auto flex justify-between flex-col lg:flex-row items-center"
         >
-          <div class="flex flex-col gap-8 jusify-center items-start">
+          <div class="flex flex-col gap-4 sm:gap-8 justify-center items-center text-center lg:text-left lg:items-start">
             <h3
-              class="text-[var(--c-grey-7)] text-2xl font-semibold tracking-wide"
+              class="text-[var(--c-grey-7)] text-base lg:text-2xl font-semibold tracking-wide"
             >
               Hi I am
             </h3>
-            <h2 class="text-[var(--c-grey-9)] text-3xl font-bold tracking-wide">
-              Gev Gharibyan
+            <h2 class="text-[var(--c-grey-9)] text-lg lg:text-3xl font-bold tracking-wide">
+              Mkhitar Siradeghyan
             </h2>
             <h1
-              class="text-transparent text-7xl font-black tracking-wide bg-linear-to-r from-[var(--c-theme-dark)] via-[var(--c-theme-light)] to-[var(--c-theme-dark)] inline-block bg-clip-text"
+              class="text-transparent text-4xl lg:text-7xl font-black tracking-wide bg-linear-to-r from-[var(--c-theme-dark)] via-[var(--c-theme-light)] to-[var(--c-theme-dark)] inline-block bg-clip-text"
             >
-              Frontend Web Developer
+              Fullstack Web Developer
             </h1>
             <div class="inline-flex gap-4">
               <a
@@ -99,54 +99,35 @@
                 ><i class="fa-brands fa-behance"></i
               ></a>
             </div>
-            <div class="inline-flex gap-4">
+            <div class="inline-flex gap-4 flex-col sm:flex-row">
               <button
-                class="cursor-pointer bg-[var(--c-theme-light)] border-2 border-[var(--c-theme-light)] font-[Lato] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg"
+                class="cursor-pointer bg-[var(--c-theme-light)] border-2 border-[var(--c-theme-light)] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg"
               >
-                Hire Me
+                Hire me
               </button>
               <button
-                class="cursor-pointer [var(--c-grey-9)] text-white border-2 border-[var(--c-grey-9)] font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg"
+                class="cursor-pointer text-[var(--c-grey-9)] border-2 border-[var(--c-grey-9)] font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg"
               >
                 Download CV
               </button>
             </div>
-            <div class="bg-white/4 inline-flex py-6 rounded-lg">
-              <div class="flex flex-col gap-3 px-8">
-                <span
-                  class="text-[var(--c-theme-light)] tracking-wide font-extrabold text-2xl"
-                  >5+</span
-                >
-                <span
-                  class="tracking-wide text-[var(--c-grey-d)] font-bold text-xl"
-                  >Experiences</span
-                >
-              </div>
-              <div
-                class="flex flex-col gap-3 px-8 border-x border-x-[var(--c-grey-9)]"
-              >
-                <span
-                  class="text-[var(--c-theme-light)] tracking-wide font-extrabold text-2xl"
-                  >20+</span
-                >
-                <span
-                  class="tracking-wide text-[var(--c-grey-d)] font-bold text-xl"
-                  >Projects Done</span
-                >
-              </div>
-              <div class="flex flex-col gap-3 px-8">
-                <span
-                  class="text-[var(--c-theme-light)] tracking-wide font-extrabold text-2xl"
-                  >80+</span
-                >
-                <span
-                  class="tracking-wide text-[var(--c-grey-d)] font-bold text-xl"
-                  >Happy Clients</span
-                >
-              </div>
+            <div class="bg-white/4 inline-grid grid-cols-3 divide-x-2 py-6 *:px-8 *:text-neutral-400 *:flex *:flex-col *:items-start *:justify-start *:gap-2 *:text-xl rounded-lg">
+                <div class="">
+                    <span class="text-[var(--c-theme-light)] text-2xl font-extrabold tracking-wide">5+</span>
+                    <span>Experiences</span>
+                </div>
+                <div class="">
+                    <span class="text-[var(--c-theme-light)] text-2xl font-extrabold tracking-wide">20+</span>
+                    <span>Project Done</span>
+                </div>
+                <div class="">
+                    <span class="text-[var(--c-theme-light)] text-2xl font-extrabold tracking-wide">80+</span>
+                    <span>Happy Clients</span>
+                </div>
+            </div>
             </div>
           </div>
-          <div class="w-1/2 flex justify-center items-center self-stretch">
+          <div class="w-9.5/10 lg:w-1/2 h-screen flex justify-center items-center lg:self-stretch">
             <div
               class="rounded-full overflow-hidden h-9/10 aspect-[3/4] relative"
             >
@@ -155,48 +136,32 @@
               ></div>
               <img
                 class="h-full object-cover object-center absolute bottom-0 left-1/2 -translate-x-1/2 grayscale"
-                src="../assets/img/exo.png"
+                src="./assets/img/profile.png"
                 alt=""
               />
             </div>
           </div>
         </div>
       </section>
-      <section class="py-16">
+      <!-- <section class="py-16">
         <div
-          class="container text-center max-w-7xl mx-auto flex jusify-center items-center flex-col gap-9"
+          class="container text-center max-w-7xl mx-auto flex justify-center items-center flex-col gap-10"
         >
-          <h2 class="text-5xl text-white font-bold tracking-wide">Skills</h2>
-          <p
-            class="tracking-wide text-xl text-[var(--c-grey-7)] max-w-xl leading-[1.5]"
-          >
+          <h2 class="text-5xl text-white font-bold tracking-wide">
+            Professional Skills
+          </h2>
+          <p class="max-w-xl text-xl text-[var(--c-grey-7)] leading-[1.5]">
             Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit
             felis ligula aliquam
           </p>
           <div class="grid grid-cols-3 gap-8">
             <div
-              class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6"
-            >
-              <div class="text-[var(--c-theme-light)] text-5xl">
-                <i class="fa-solid fa-code"></i>
-              </div>
-              <h3 class="text-[var(--c-theme-light)] text-2xl">
-                Web Developer
-              </h3>
-              <p
-                class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10"
-              >
-                Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit
-                amet consectetur
-              </p>
-            </div>
-            <div
-              class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6"
+              class="bg-white/4 rounded-3xl p-10 flex flex-col justify-center items-center gap-6"
             >
               <div class="text-[var(--c-theme-light)] text-5xl">
                 <i class="fa-brands fa-html5"></i>
               </div>
-              <h3 class="text-[var(--c-theme-light)] text-2xl">HTML5</h3>
+              <h3 class="text-[var(--c-theme-light)] text-2xl">HTML 5</h3>
               <p
                 class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10"
               >
@@ -205,12 +170,12 @@
               </p>
             </div>
             <div
-              class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6"
+              class="bg-white/4 rounded-3xl p-10 flex flex-col justify-center items-center gap-6"
             >
               <div class="text-[var(--c-theme-light)] text-5xl">
-                <i class="fa-brands fa-css"></i>
+                <i class="fa-brands fa-css3-alt"></i>
               </div>
-              <h3 class="text-[var(--c-theme-light)] text-2xl">CSS</h3>
+              <h3 class="text-[var(--c-theme-light)] text-2xl">CSS 3</h3>
               <p
                 class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10"
               >
@@ -219,12 +184,12 @@
               </p>
             </div>
             <div
-              class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6"
+              class="bg-white/4 rounded-3xl p-10 flex flex-col justify-center items-center gap-6"
             >
               <div class="text-[var(--c-theme-light)] text-5xl">
                 <i class="fa-brands fa-js"></i>
               </div>
-              <h3 class="text-[var(--c-theme-light)] text-2xl">JS</h3>
+              <h3 class="text-[var(--c-theme-light)] text-2xl">JavaScript</h3>
               <p
                 class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10"
               >
@@ -233,7 +198,7 @@
               </p>
             </div>
             <div
-              class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6"
+              class="bg-white/4 rounded-3xl p-10 flex flex-col justify-center items-center gap-6"
             >
               <div class="text-[var(--c-theme-light)] text-5xl">
                 <i class="fa-brands fa-react"></i>
@@ -247,7 +212,21 @@
               </p>
             </div>
             <div
-              class="bg-white/4 rounded-3xl p-10 flex flex-col jusify-center items-center gap-6"
+              class="bg-white/4 rounded-3xl p-10 flex flex-col justify-center items-center gap-6"
+            >
+              <div class="text-[var(--c-theme-light)] text-5xl">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <h3 class="text-[var(--c-theme-light)] text-2xl">Python</h3>
+              <p
+                class="text-[var(--c-grey-5)] text-xl leading-[1.5] max-w-9/10"
+              >
+                Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit
+                amet consectetur
+              </p>
+            </div>
+            <div
+              class="bg-white/4 rounded-3xl p-10 flex flex-col justify-center items-center gap-6"
             >
               <div class="text-[var(--c-theme-light)] text-5xl">
                 <i class="fa-brands fa-docker"></i>
@@ -263,311 +242,309 @@
           </div>
         </div>
       </section>
-      <section class="p-10">
+      <section class="py-20">
         <div
-          class="container max-w-7xl mx-auto h-full px-6 flex flex-col jusify-center items-center gap-10"
+          class="container max-w-7xl mx-auto h-full px-6 flex flex-col justify-center items-center gap-10"
         >
-          <h2 class="text-[var(--c-grey-d)] font-bold text-5xl tracking-wide">
-            About Me
+          <h2 class="text-5xl text-white font-bold tracking-wide text-center">
+            Professional Skills
           </h2>
           <p
-            class="text-xl max-w-xl text-[var(--c-grey-7)] leading-[1.5] text-center"
+            class="max-w-xl text-xl text-center text-[var(--c-grey-7)] leading-[1.5]"
           >
-            User Interface and User Experience and Also video editing
+            Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit
+            felis ligula aliquam
           </p>
-
-          <div class="h-screen flex justify-between items-center w-full">
+          <div class="flex justify-between items-center h-screen w-full">
             <div class="w-1/2 flex justify-center items-center self-stretch">
-              <div class="overflow-hidden h-9/10 aspect-[3/4] relative">
+              <div class="overflow-hidden h-9/10 aspect-[2/3] relative">
                 <div
-                  class="w-8/10 aspect-[3/4] bg-white/4 rounded-t-full absolute bottom-0 left-1/2 -translate-x-1/2"
+                  class="w-full aspect-[3/4] bg-white/4 rounded-t-full absolute bottom-0 left-1/2 -translate-x-1/2"
                 ></div>
                 <img
-                  class="h-full object-cover object-center absolute bottom-0 left-1/2 -translate-x-1/2 grayscale"
-                  src="../assets/img/exo.png"
+                  class="w-full object-cover object-center absolute bottom-0 left-1/2 -translate-x-1/2 grayscale"
+                  src="./assets/img/profile.png"
                   alt=""
                 />
               </div>
             </div>
-            <div class="w-1/2 flex flex-col justify-center items-start gap-12">
-              <p
-                class="flex jusify-center items-center gap-4 text-[var(--c-grey-9)] text-center text-xl leading-[1.5]"
-              >
-                A software engineer, the modern-day architect of digital realms,
-                navigates the ethereal landscapes of code, sculpting intangible
-                structures that shape our technological world. With fingers
-                poised over keyboards like virtuoso pianists, they compose
-                symphonies of logic, their minds a labyrinth of algorithms and
-                solutions.Their canvas is a screen, a vast expanse where lines
-                of code dance in intricate patterns, weaving the fabric of
-                programs and applications. Each keystroke is a brushstroke,
-                crafting intricate architectures and breathing life into
-                innovative designs.In this digital atelier, they don the mantle
-                of problem solvers, confronting bugs and glitches like valiant
-                knights in an ever-evolving quest for perfection. Debugging
-                becomes a noble pursuit, unraveling the mysteries hidden within
-                the tangled webs of code. designs.In this digital atelier.
+            <div class="w-1/2 flex flex-col justify-center items-start gap-10">
+              <p class="text-[var(--c-grey-9)] text-xl leading-[1.8]">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Facilis impedit, odit omnis alias nesciunt dolorem excepturi
+                nisi aspernatur perferendis sunt? Blanditiis, fugit. Ullam
+                deserunt enim voluptate, aliquam minima quibusdam repellendus
+                ducimus quod voluptatum provident vero quia recusandae, nulla ex
+                error neque! Sequi atque soluta, perspiciatis consequatur, sit
+                at in aliquam architecto nam placeat distinctio.
               </p>
               <button
-                class="cursor-pointer bg-[var(--c-theme-light)] text-white border-2 border-[var(--c-theme-light)] font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg"
+                class="cursor-pointer bg-[var(--c-theme-light)] border-2 border-[var(--c-theme-light)] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg flex justify-center items-center gap-4"
               >
-                <i class="fa-solid fa-download"></i>
-                Download CV
+                <i class="fa-solid fa-download"></i><span>Download CV</span>
               </button>
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <div class="container max-w-7xl mx-auto px-6 flex justify-between items-center">
+      <section class="">
+        <div
+          class="container max-w-7xl mx-auto px-6 flex justify-between items-center"
+        >
           <div class="w-50 flex flex-col justify-center items-center gap-4">
             <div class="relative bg-white/20 rounded-full aspect-square w-full">
               <div
-                class="rounded-full w-full h-full absolute top-0 left-0 custom-gradient1"
+                class="w-full h-full rounded-full absolute top-0 left-0 custom-gradient-1"
               ></div>
               <div
-                class="rounded-full w-8/10 h-8/10 top-1/2 left-1/2 -translate-1/2 absolute t-0 l-0 bg-[var(--c-grey-1)]"
+                class="w-8/10 h-8/10 rounded-full absolute top-1/2 left-1/2 -translate-1/2 bg-[var(--c-grey-1)]"
               ></div>
-              <div class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl">
+              <div
+                class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl"
+              >
                 <i class="fa-brands fa-html5"></i>
               </div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block rotate-72deg"></div>
+              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:block after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full"></div>
+              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] rotate-72 after:block after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full"></div>
             </div>
             <div class="flex flex-col justify-center items-center gap-4">
-              <span class="text-[var(--c-theme-light)] font-bold text-3xl">100%</span>
-              <span class="text-[var(--c-grey-9)] font-bold text-2xl">HTML5</span>
+              <span class="font-bold text-[var(--c-theme-light)] text-3xl"
+                >80%</span
+              >
+              <span class="font-bold text-[var(--c-grey-9)] text-2xl"
+                >HTML5</span
+              >
             </div>
           </div>
           <div class="w-50 flex flex-col justify-center items-center gap-4">
             <div class="relative bg-white/20 rounded-full aspect-square w-full">
               <div
-                class="rounded-full w-full h-full absolute top-0 left-0 custom-gradient2"
+                class="w-full h-full rounded-full absolute top-0 left-0 custom-gradient-2"
               ></div>
               <div
-                class="rounded-full w-8/10 h-8/10 top-1/2 left-1/2 -translate-1/2 absolute t-0 l-0 bg-[var(--c-grey-1)]"
+                class="w-8/10 h-8/10 rounded-full absolute top-1/2 left-1/2 -translate-1/2 bg-[var(--c-grey-1)]"
               ></div>
-              <div class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl">
-                <i class="fa-brands fa-css"></i>
+              <div
+                class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl"
+              >
+                <i class="fa-brands fa-css3-alt"></i>
               </div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
+              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:block after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full"></div>
+              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] rotate-72 after:block after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full"></div>
             </div>
             <div class="flex flex-col justify-center items-center gap-4">
-              <span class="text-[var(--c-theme-light)] font-bold text-3xl">100%</span>
-              <span class="text-[var(--c-grey-9)] font-bold text-2xl">Css</span>
+              <span class="font-bold text-[var(--c-theme-light)] text-3xl"
+                >96%</span
+              >
+              <span class="font-bold text-[var(--c-grey-9)] text-2xl"
+                >CSS3</span
+              >
             </div>
           </div>
           <div class="w-50 flex flex-col justify-center items-center gap-4">
             <div class="relative bg-white/20 rounded-full aspect-square w-full">
               <div
-                class="rounded-full w-full h-full absolute top-0 left-0 custom-gradient3"
+                class="w-full h-full rounded-full absolute top-0 left-0 custom-gradient-3"
               ></div>
               <div
-                class="rounded-full w-8/10 h-8/10 top-1/2 left-1/2 -translate-1/2 absolute t-0 l-0 bg-[var(--c-grey-1)]"
-              ></div>
-              <div class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl">
-                <i class="fa-brands fa-js"></i>
-              </div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:blockw-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block rotate-54"></div>
-            </div>
-            <div class="flex flex-col justify-center items-center gap-4">
-              <span class="text-[var(--c-theme-light)] font-bold text-3xl">85%</span>
-              <span class="text-[var(--c-grey-9)] font-bold text-2xl">JavaScript</span>
-            </div>
-          </div>
-          <div class="w-50 flex flex-col justify-center items-center gap-4">
-            <div class="relative bg-white/20 rounded-full aspect-square w-full">
-              <div
-                class="rounded-full w-full h-full absolute top-0 left-0 custom-gradient4"
+                class="w-8/10 h-8/10 rounded-full absolute top-1/2 left-1/2 -translate-1/2 bg-[var(--c-grey-1)]"
               ></div>
               <div
-                class="rounded-full w-8/10 h-8/10 top-1/2 left-1/2 -translate-1/2 absolute t-0 l-0 bg-[var(--c-grey-1)]"
-              ></div>
-              <div class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl">
+                class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl"
+              >
                 <i class="fa-brands fa-react"></i>
               </div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block rotate-144"></div>
+              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:block after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full"></div>
+              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] rotate-72 after:block after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full"></div>
             </div>
             <div class="flex flex-col justify-center items-center gap-4">
-              <span class="text-[var(--c-theme-light)] font-bold text-3xl">60%</span>
-              <span class="text-[var(--c-grey-9)] font-bold text-2xl">React</span>
+              <span class="font-bold text-[var(--c-theme-light)] text-3xl"
+                >85%</span
+              >
+              <span class="font-bold text-[var(--c-grey-9)] text-2xl"
+                >React</span
+              >
             </div>
           </div>
           <div class="w-50 flex flex-col justify-center items-center gap-4">
             <div class="relative bg-white/20 rounded-full aspect-square w-full">
               <div
-                class="rounded-full w-full h-full absolute top-0 left-0 custom-gradient5"
+                class="w-full h-full rounded-full absolute top-0 left-0 custom-gradient-4"
               ></div>
               <div
-                class="rounded-full w-8/10 h-8/10 top-1/2 left-1/2 -translate-1/2 absolute t-0 l-0 bg-[var(--c-grey-1)]"
+                class="w-8/10 h-8/10 rounded-full absolute top-1/2 left-1/2 -translate-1/2 bg-[var(--c-grey-1)]"
               ></div>
-              <div class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl">
+              <div
+                class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl"
+              >
                 <i class="fa-brands fa-python"></i>
               </div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block rotate-108"></div>
+              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:block after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full"></div>
+              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] rotate-72 after:block after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full"></div>
             </div>
             <div class="flex flex-col justify-center items-center gap-4">
-              <span class="text-[var(--c-theme-light)] font-bold text-3xl">70%</span>
-              <span class="text-[var(--c-grey-9)] font-bold text-2xl">Python</span>
+              <span class="font-bold text-[var(--c-theme-light)] text-3xl"
+                >90%</span
+              >
+              <span class="font-bold text-[var(--c-grey-9)] text-2xl"
+                >Python</span
+              >
+            </div>
+          </div>
+          <div class="w-50 flex flex-col justify-center items-center gap-4">
+            <div class="relative bg-white/20 rounded-full aspect-square w-full">
+              <div
+                class="w-full h-full rounded-full absolute top-0 left-0 custom-gradient-5"
+              ></div>
+              <div
+                class="w-8/10 h-8/10 rounded-full absolute top-1/2 left-1/2 -translate-1/2 bg-[var(--c-grey-1)]"
+              ></div>
+              <div
+                class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl"
+              >
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:block after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full"></div>
+              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] rotate-72 after:block after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full"></div>
+            </div>
+            <div class="flex flex-col justify-center items-center gap-4">
+              <span class="font-bold text-[var(--c-theme-light)] text-3xl"
+                >95%</span
+              >
+              <span class="font-bold text-[var(--c-grey-9)] text-2xl"
+                >JavaScript</span
+              >
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <section class="py-25">
-          <div class="container flex gap-25 flex-col justify-center items-center gap-10 max-w-7xl mx-auto">
-            <h2 class="text-5xl text-white font-bold tracking-wide">Portfolio</h2>
-            <div class="grid grid-cols-3 gap-8">
-              <div class="rounded-2xl overflow-hidden">
-                <div class="aspect-[3/4]">
-                  <img class="w-full h-full object-cover object-center" src="../assets/img/nkar.png" alt="">
-                </div>
-                <div class="bg-white/8 flex justify-between items-center p-4">
-                  <span class="text-base font-bold text-[var(--c-grey-d)]">Project Name</span>
-                  <span class="text-base font-bold text-[var(--c-grey-9)]">Categories</span>
-                </div>
+      <section class="py-25">
+        <div class="container flex gap-25 flex-col justify-center items-center max-w-7xl mx-auto">
+          <h2 class="text-5xl text-white font-bold tracking-wide">
+            Portfolio
+          </h2>
+          <div class="grid grid-cols-3 gap-6">
+            <div class="rounded-2xl overflow-hidden">
+              <div class="aspect-[3/4]">
+                <img class="w-full h-full object-cover object-center" src="./assets/img/portfolio.png" alt="">
               </div>
-              <div class="rounded-2xl overflow-hidden">
-                <div class="aspect-[3/4]">
-                  <img class="w-full h-full object-cover object-center" src="../assets/img/nkar2.png" alt="">
-                </div>
-                <div class="bg-white/8 flex justify-between items-center p-4">
-                  <span class="text-base font-bold text-[var(--c-grey-d)]">Project Name</span>
-                  <span class="text-base font-bold text-[var(--c-grey-9)]">Categories</span>
-                </div>
+              <div class="text-base font-bold bg-white/8 flex justify-between items-center p-4">
+                <span class="text-[var(--c-grey-d)]">Project name</span>
+                <span class="text-[var(--c-grey-9)]">Categories</span>
               </div>
-              <div class="rounded-2xl overflow-hidden">
-                <div class="aspect-[3/4]">
-                  <img class="w-full h-full object-cover object-center" src="../assets/img/nkar3.png" alt="">
-                </div>
-                <div class="bg-white/8 flex justify-between items-center p-4">
-                  <span class="text-base font-bold text-[var(--c-grey-d)]">Project Name</span>
-                  <span class="text-base font-bold text-[var(--c-grey-9)]">Categories</span>
-                </div>
+            </div>
+            <div class="rounded-2xl overflow-hidden">
+              <div class="aspect-[3/4]">
+                <img class="w-full h-full object-cover object-center" src="./assets/img/portfolio.png" alt="">
               </div>
-              <div class="rounded-2xl overflow-hidden">
-                <div class="aspect-[3/4]">
-                  <img class="w-full h-full object-cover object-center" src="../assets/img/nkar2.png" alt="">
-                </div>
-                <div class="bg-white/8 flex justify-between items-center p-4">
-                  <span class="text-base font-bold text-[var(--c-grey-d)]">Project Name</span>
-                  <span class="text-base font-bold text-[var(--c-grey-9)]">Categories</span>
-                </div>
+              <div class="text-base font-bold bg-white/8 flex justify-between items-center p-4">
+                <span class="text-[var(--c-grey-d)]">Project name</span>
+                <span class="text-[var(--c-grey-9)]">Categories</span>
               </div>
-              <div class="rounded-2xl overflow-hidden">
-                <div class="aspect-[3/4]">
-                  <img class="w-full h-full object-cover object-center" src="../assets/img/nkar3.png" alt="">
-                </div>
-                <div class="bg-white/8 flex justify-between items-center p-4">
-                  <span class="text-base font-bold text-[var(--c-grey-d)]">Project Name</span>
-                  <span class="text-base font-bold text-[var(--c-grey-9)]">Categories</span>
-                </div>
+            </div>
+            <div class="rounded-2xl overflow-hidden">
+              <div class="aspect-[3/4]">
+                <img class="w-full h-full object-cover object-center" src="./assets/img/portfolio.png" alt="">
               </div>
-              <div class="rounded-2xl overflow-hidden">
-                <div class="aspect-[3/4]">
-                  <img class="w-full h-full object-cover object-center" src="../assets/img/nkar.png" alt="">
-                </div>
-                <div class="bg-white/8 flex justify-between items-center p-4">
-                  <span class="text-base font-bold text-[var(--c-grey-d)]">Project Name</span>
-                  <span class="text-base font-bold text-[var(--c-grey-9)]">Categories</span>
-                </div>
+              <div class="text-base font-bold bg-white/8 flex justify-between items-center p-4">
+                <span class="text-[var(--c-grey-d)]">Project name</span>
+                <span class="text-[var(--c-grey-9)]">Categories</span>
               </div>
-              <div class="rounded-2xl overflow-hidden">
-                <div class="aspect-[3/4]">
-                  <img class="w-full h-full object-cover object-center" src="../assets/img/nkar3.png" alt="">
-                </div>
-                <div class="bg-white/8 flex justify-between items-center p-4">
-                  <span class="text-base font-bold text-[var(--c-grey-d)]">Project Name</span>
-                  <span class="text-base font-bold text-[var(--c-grey-9)]">Categories</span>
-                </div>
+            </div>
+            <div class="rounded-2xl overflow-hidden">
+              <div class="aspect-[3/4]">
+                <img class="w-full h-full object-cover object-center" src="./assets/img/portfolio.png" alt="">
               </div>
-              <div class="rounded-2xl overflow-hidden">
-                <div class="aspect-[3/4]">
-                  <img class="w-full h-full object-cover object-center" src="../assets/img/nkar2.png" alt="">
-                </div>
-                <div class="bg-white/8 flex justify-between items-center p-4">
-                  <span class="text-base font-bold text-[var(--c-grey-d)]">Project Name</span>
-                  <span class="text-base font-bold text-[var(--c-grey-9)]">Categories</span>
-                </div>
+              <div class="text-base font-bold bg-white/8 flex justify-between items-center p-4">
+                <span class="text-[var(--c-grey-d)]">Project name</span>
+                <span class="text-[var(--c-grey-9)]">Categories</span>
               </div>
-              <div class="rounded-2xl overflow-hidden">
-                <div class="aspect-[3/4]">
-                  <img class="w-full h-full object-cover object-center" src="../assets/img/nkar.png" alt="">
-                </div>
-                <div class="bg-white/8 flex justify-between items-center p-4">
-                  <span class="text-base font-bold text-[var(--c-grey-d)]">Project Name</span>
-                  <span class="text-base font-bold text-[var(--c-grey-9)]">Categories</span>
-                </div>
+            </div>
+            <div class="rounded-2xl overflow-hidden">
+              <div class="aspect-[3/4]">
+                <img class="w-full h-full object-cover object-center" src="./assets/img/portfolio.png" alt="">
               </div>
+              <div class="text-base font-bold bg-white/8 flex justify-between items-center p-4">
+                <span class="text-[var(--c-grey-d)]">Project name</span>
+                <span class="text-[var(--c-grey-9)]">Categories</span>
+              </div>
+            </div>
+            <div class="rounded-2xl overflow-hidden">
+              <div class="aspect-[3/4]">
+                <img class="w-full h-full object-cover object-center" src="./assets/img/portfolio.png" alt="">
+              </div>
+              <div class="text-base font-bold bg-white/8 flex justify-between items-center p-4">
+                <span class="text-[var(--c-grey-d)]">Project name</span>
+                <span class="text-[var(--c-grey-9)]">Categories</span>
+              </div>
+            </div>
           </div>
-          </div>
-        </section>
-        <section class="py-20">
-          <div class="container max-w-7xl mx-auto flex flex-col justify-center items-center">
-            <h2 class="text-5xl text-white font-bold tracking-wide">Contact Me</h2>
-            <p class="text-[var(--c-grey-9)] text-center tex-xl leading-[1.5]">Cultivating Connections: Reach Out and Connect with Me</p>
-            <form class="grid gap-6 grid-cols-2 grid-rows-[1fr_1fr_3fr_1fr]">
-              <input type="text" placeholder="Name" class="text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg">
-              <input type="text" placeholder="Email" class="text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg">
-              <input type="text" placeholder="Phone Number" class="text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg">
-              <input type="text" placeholder="Project" class="text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg">
-              <textarea placeholder="Your Opinion..." class="col-span-2 resize-none text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg"></textarea>
-              <button class="justify-self-center col-span-2 bg-[var(--c-theme-light)] text-white border-2 border-[var(--c-theme-light)] font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg hover:bg-[var(--c-theme-dark)] hover:border-[var(--c-theme-dark)]">Send</button>
-             
-            </form>
-          </div>
-        </section>
+        </div>
+      </section>
+      <section class="py-20">
+        <div class="container max-w-7xl mx-auto flex flex-col justify-center items-center gap-10">
+          <h2 class="text-5xl text-white font-bold tracking-wide text-center">Contact me</h2>
+          <p class="max-w-xl text-xl text-center text-[var(--c-grey-7)] leading-[1.5]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora necessitatibus suscipit fugiat aut cum harum!</p>
+          <form class="grid gap-6 grid-cols-2 grid-rows-[1fr_1fr_3fr_1fr]"" >
+              <input type="text" placeholder="Name" class="text-base  text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg">
+              <input type="text" placeholder="Email" class="text-base  text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg">
+              <input type="text" placeholder="Phone" class="text-base  text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg">
+              <input type="text" placeholder="Project" class="text-base  text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg">
+              <textarea placeholder="Description..." class="text-base col-span-2 text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg resize-none"></textarea>
+              <button class="cursor-pointer bg-[var(--c-theme-light)] hover:bg-[var(--c-theme-dark)] border-2 border-[var(--c-theme-light)] hover:border-[var(--c-theme-dark)] transition text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg justify-self-center col-span-2">Contact</button>
+          </form>
+        </div>
       </section>
     </main>
     <footer class="bg-white/4 py-10">
-      <div class="container max-w-7xl mx-auto flex flex-col justify-center items-center gap-8">
+      <div class="container max-w-7xl mx-auto flex flex-col items-center justify-center gap-8">
         <a
           class="bg-linear-to-r from-[var(--c-theme-light)] to-[var(--c-theme-accent)] bg-clip-text text-transparent font-[K2D] text-3xl font-bold uppercase tracking-wide"
         >
           Logo
         </a>
         <nav class="">
-          <menu
-            class="flex jusify-center items-center tex-xl text-[var(--c-grey-9)] font-medium tracking-wide gap-15 whitespace-nowrap"
+          <ul
+            class="flex justify-center items-center text-xl text-[var(--c-grey-9)] font-medium tracking-wide gap-15 whitespace-nowrap"
           >
-            <li class="text-[var(--c-theme-light)]">
-              <a href="" class="">Home</a>
-            </li>
+            <li class=""><a href="" class="">Home</a></li>
             <li class=""><a href="" class="">Service</a></li>
-            <li class=""><a href="" class="">About Me</a></li>
+            <li class=""><a href="" class="">About me</a></li>
             <li class=""><a href="" class="">Portfolio</a></li>
-            <li class=""><a href="" class="">Contact Me</a></li>
-          </menu>
+            <li class=""><a href="" class="">Contact me</a></li>
+          </ul>
         </nav>
         <div class="inline-flex gap-4">
-              <a
-                class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-              <a
-                class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
-              <a
-                class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
-                ><i class="fa-brands fa-dribbble"></i
-              ></a>
-              <a
-                class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
-                ><i class="fa-brands fa-behance"></i
-              ></a>
-            </div>
-            <div class="text-[var(--c-grey-9)] flex gap-8">
-              <div class="flex gap-3 items-center"><i class="fa-regular fa-envelope"></i><span>Gharib7an@gmail.com</span></div>
-              <div class="flex gap-3 items-center"><i class="fa-solid fa-phone"></i><span>+374 43334440</span></div>
-            </div>
-            <p class="text-[var(--c-grey-7)] border-t border-[var(--c-grey-7)] pt-8">Designed by Gevorg.Gharibyan FrontEnd Web Developer</p>
+          <a
+            class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+            ><i class="fa-brands fa-dribbble"></i
+          ></a>
+          <a
+            class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+            ><i class="fa-brands fa-behance"></i
+          ></a>
+        </div>
+        <div class="text-[var(--c-grey-9)] flex gap-8 *:flex *:gap-4 *:items-center">
+          <div class="">
+            <i class="fa-regular fa-envelope"></i>
+            <span class="">mkhitar.siradeghyan@yandex.ru</span>
+          </div>
+          <div class="">
+            <i class="fa-solid fa-phone"></i>
+            <span class="">+374-99-12-34-56</span>
+          </div>
+        </div>
+        
+        <p class="text-[var(--c-grey-7)] border-t border-[var(--c-grey-7)] pt-8">Designed by Mkhitar Siradeghyan Fullstack Web Developer</p>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
-
